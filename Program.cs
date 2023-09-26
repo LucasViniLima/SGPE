@@ -33,14 +33,11 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Produto}/{action=Index}/{id?}");
 app.Run();
 
 void CreateDatabase()
 {
-    
-
-
     using var myConnection = new MySqlConnection("Server=localhost;uid=USUARIO;Pwd=SENHA123;");
 
     var parameters = new DynamicParameters();

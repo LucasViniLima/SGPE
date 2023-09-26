@@ -1,0 +1,25 @@
+﻿@model SGPE.Models.Produto
+
+@{
+    ViewData["Title"] = "Criar Produto";
+}
+
+<h2>Página Create</h2>
+
+<div>
+    <div>
+        <form asp-action="Create">
+            <div>
+                <label asp-for="Titulo"></label>
+                <input asp-for="Titulo" />
+            </div>
+            <div>
+                <label asp-for="Descricao"></label>
+                <input asp-for="Descricao" />
+            </div>
+            <div>
+                <input type="submit" value="Create" />
+            </div>
+        </form>
+    </div>
+</div>

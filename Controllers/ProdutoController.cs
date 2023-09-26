@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SGPE.Context;
 using SGPE.Models;
 
@@ -13,9 +14,12 @@ namespace SGPE.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var produtos = from m in _context.Produtos
+                           select m;
+
+            return View(await produtos.ToListAsync());
         }
 
         public IActionResult Create()

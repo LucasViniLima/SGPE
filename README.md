@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Pequenas Empresas (SGE)
+# Sistema de Gerenciamento de Pequenas Empresas (SGE) - Em construção
 
 O Sistema de Gerenciamento de Pequenas Empresas (SGE) é uma plataforma versátil projetada para ajudar pequenas empresas a otimizar suas operações em várias áreas-chave, incluindo estoque, vendas, finanças e recursos humanos. O SGE é altamente personalizável e oferece recursos essenciais para simplificar a gestão do negócio.
 
@@ -19,18 +19,3 @@ O Sistema de Gerenciamento de Pequenas Empresas (SGE) é uma plataforma versáti
 - **Segurança e Autenticação:** Proteja seus dados com autenticação segura e controle de acesso baseado em funções.
 
 - **Personalização:** Escolha os módulos específicos que atendam às necessidades exclusivas da sua empresa.
-
-## Tecnologias Utilizadas
-
-- ASP.NET Core para o desenvolvimento da aplicação web.
-- Entity Framework Core para mapeamento objeto-relacional e gerenciamento de banco de dados.
-- SQL Server para armazenamento de dados.
-- C# como linguagem de programação principal.
-- Bootstrap ou outro framework CSS para design responsivo e amigável ao usuário.
-
-## Como Iniciar
-
-1. **Pré-requisitos:**
-   - [Instale o .NET Core](https://dotnet.microsoft.com/download) em sua máquina.
-
-2. **Clone o Repositório:**
